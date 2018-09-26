@@ -5,7 +5,7 @@ import Graph from "./Graph"
 export default class GraphTable extends Component {
     render(){
         return(
-            <div className="col-lg-10">
+            <div className="col-lg-10 p-0">
             <Graph/>
             <Table/>
             </div>
